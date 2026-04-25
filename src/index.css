@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("../assets/fonts/static/RedHatText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("../assets/fonts/static/RedHatText-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("../assets/fonts/static/RedHatText-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@theme {
+  --font-red-hat: "Red Hat Text", sans-serif;
+}
+
+@theme {
+  --color-red: #C73B0F;
+
+  --color-rose-900: #260F08;
+  --color-rose-500: #87635A;
+  --color-rose-400: #AD8A85;
+  --color-rose-300: #CAAFA7;
+  --color-rose-100: #F5EEEC;
+  --color-rose-50: #FCF8F6;
+
+  --color-green: #1EA575;
+  }
+
+@theme{
+  --breakpoint-xxl:90rem;
+}
+
+#root {
+
+
+  box-sizing: border-box;
+}
+
+
+p {
+  margin: 0;
+}
+
+
+body {
+  font-family: var(--font-red-hat);
+  line-height: 1.5;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
