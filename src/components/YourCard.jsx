@@ -46,7 +46,7 @@ console.log(orderTotal);
     </div>  
 
     <div className='flex justify-center gap-2 py-4 bg-rose-50 text-sm text-rose-900 mb-6'>
-        <img src="/public/images/icon-carbon-neutral.svg" alt="Image carbon neutral" />
+        <img src="/images/icon-carbon-neutral.svg" alt="Image carbon neutral" />
         <p className='font-normal'>This is a <span className='font-semibold'>carbon-neutral</span> delivery</p>
     </div>
 

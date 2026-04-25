@@ -19,7 +19,7 @@ export default function Card(props) {
                               border border-rose-400 z-20 whitespace-nowrap">
 
             <img 
-             src="public/images/icon-add-to-cart.svg" 
+             src="/images/icon-add-to-cart.svg" 
              alt="Image cart" />
 
             Add to Cart

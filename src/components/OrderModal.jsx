@@ -11,7 +11,7 @@ export default function OrderModal({ cartItems, orderTotal, onClose, onResetOrde
                           md:pb-10 md:px-10 md:w-[688px] md:rounded-xl xxl:w-[592px] "> 
              <div>
                 <img className="w-12 h-12 mb-6"
-                               src="/public/images/icon-order-confirmed.svg" 
+                               src="/images/icon-order-confirmed.svg" 
                                alt="Confirmed image" />
                   <h2 className="text-rose-900 text-[40px]">Order Confirmed</h2>   
                   <p className="text-rose-500 text-base font-normal">We hope you enjoy your food! </p>          
