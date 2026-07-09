@@ -1,16 +1,53 @@
-# React + Vite
+# Product List with Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive product list page with a shopping cart.  
+Users can add products to the cart, change quantities, remove items, and confirm an order.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was built as a Frontend Mentor challenge.  
+The goal was to practice working with React components, state, product data, and cart logic.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View a list of products
+- Add products to the cart
+- Increase or decrease product quantity
+- Remove products from the cart
+- See the total order price
+- Confirm the order
+- Responsive layout for mobile and desktop screens
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- CSS
+- Vite
+
+## Project Structure
+
+src/
+├── assets/
+├── components/
+├── data/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## What I Learned
+While building this project, I practiced:
+- creating reusable React components
+- passing data with props
+- managing cart state
+ -rendering lists with .map()
+- working with conditional rendering
+- calculating totals based on product quantity
+
+ ## Links
+Solution URL: https://github.com/Alla1965/product-list-with-cart
+Live Site URL: [add-your-live-site-link-here](https://product-list-with-cart-ten-woad.vercel.app/)
+
+## Author
+GitHub - Alla1965
+Frontend Mentor - Alla1965
