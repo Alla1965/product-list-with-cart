@@ -28,12 +28,12 @@ The goal was to practice working with React components, state, product data, and
 ## Project Structure
 
 src/
-├── assets/
-├── components/
-├── data/
-├── App.jsx
-├── main.jsx
-└── index.css
+- ├── assets/
+ -├── components/
+ -├── data/
+ -├── App.jsx
+ -├── main.jsx
+ -└── index.css
 
 ## What I Learned
 While building this project, I practiced:
@@ -45,9 +45,9 @@ While building this project, I practiced:
 - calculating totals based on product quantity
 
  ## Links
-Solution URL: https://github.com/Alla1965/product-list-with-cart
-Live Site URL: [add-your-live-site-link-here](https://product-list-with-cart-ten-woad.vercel.app/)
+- Solution URL: https://github.com/Alla1965/product-list-with-cart
+ -Live Site URL: [add-your-live-site-link-here](https://product-list-with-cart-ten-woad.vercel.app/)
 
 ## Author
-GitHub - Alla1965
-Frontend Mentor - Alla1965
+ -GitHub - Alla1965
+ -Frontend Mentor - Alla1965
